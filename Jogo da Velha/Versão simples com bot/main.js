@@ -1,10 +1,13 @@
+// Deixar o codigo com comentários mais claros
+// Retirar as partes do codigo que estão comentados
+// Otimizar os ifs
 var rodadas = 0
 var vezBot = false
-var a,b,c,d,e,f,g,h,i
+var a,b,c,d,e,f,g,h,i // Colocar estas variaveis na parte em que estão sendo usadas
 var posicaoBot
 var botJogou = false
 
-var naoA,naoB,naoC,naoD,naoE,naoF,naoG,naoH,naoI
+var naoA,naoB,naoC,naoD,naoE,naoF,naoG,naoH,naoI // COlocar estas variaveis para onde estão sendo usados
 tirarNegacao()
 
 setTabuleiro()
@@ -131,6 +134,7 @@ function jogo(params) {
 
         // bloquear
 
+        
         if (!botJogou) {
             if ((b == "o" && c == "o" || // h
                  d == "o" && g == "o" || // v
