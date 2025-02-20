@@ -1,0 +1,13 @@
+.tabuleiro {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.casa {
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+    font-size: 35px;
+}
